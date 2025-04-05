@@ -1,0 +1,11 @@
+body{
+    font-family: calibri;
+    background-color: rgb(9, 134, 134);
+}
+
+table{
+    background-color: rgb(27, 23, 233);
+    color: rgb(167, 202, 11);
+    width: 500px;
+    border: 1px solid black;
+}

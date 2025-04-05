@@ -39,3 +39,60 @@ body{
     color: white;
     box-shadow: 2px 2px 10px rgb(27, 135, 220);
 }
+
+.btn_3{
+    width: 7rem;
+    height: 2rem;
+    background-color: white;
+    border: 2px solid black;
+    text-align: left;
+    padding-left: 7px;
+    background-image: url("cart-plus-fill.svg");
+    background-repeat: no-repeat;
+    background-position: right 7px center;
+}
+
+.a_btn1{
+    border: 2px solid rgb(27, 135, 220);
+    display: block;
+    width: 360px;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.no_padding{
+    box-sizing: border-box;
+}
+
+a:visited{
+    color: rgb(243, 15, 205);
+}
+
+a:link{
+ color: #2152d9;
+}
+
+a:active{
+    color: green;
+}
+
+a{
+    cursor: progress;
+}
+
+button{
+    cursor: pointer;
+}
+
+.be_button{
+    border: 2px solid blue;
+    display: block;
+    width: 7rem;
+    height: 2rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2rem;
+
+}

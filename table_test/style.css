@@ -7,5 +7,26 @@ table{
     background-color: rgb(27, 23, 233);
     color: rgb(167, 202, 11);
     width: 500px;
+    text-align: center;
+}
+
+table, th, td{
     border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(118, 118, 240);
+}
+
+tr:hover{
+    background-color: orangered;
+}
+ /* for table header column. The first Row */
+tr:nth-child(1):hover{
+    background-color: rgb(27, 23, 233);
 }

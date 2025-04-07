@@ -7,5 +7,50 @@ table{
     background-color: rgb(27, 23, 233);
     color: rgb(167, 202, 11);
     width: 500px;
+    text-align: center;
+}
+
+table, th, td{
     border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(118, 118, 240);
+}
+
+tr:hover{
+    background-color: orangered;
+}
+ /* for table header column. The first Row */
+tr:nth-child(1):hover{
+    background-color: rgb(27, 23, 233);
+}
+
+hr{
+    display: block;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.tbl2, .tbl3{
+    background-color: rgb(31, 19, 194);
+    td{
+        background-color: rgb(31, 19, 194);
+    }
+    td:hover{
+        background-color: orangered;
+    }
+}
+
+.tbl3{
+    width: 300px;
+    height: 300px;
+    padding-right: 5000px;
 }

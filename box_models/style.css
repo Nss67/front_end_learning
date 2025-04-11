@@ -1,0 +1,17 @@
+*{
+    font-family: calibri;
+    font-size: 22px;
+    margin: 1px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+p, h1{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    width: 250px;
+}

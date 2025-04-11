@@ -1,0 +1,18 @@
+*{
+    font-family: calibri;
+    font-size: 22px;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: brown;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    width: 250px;
+    margin: 500px;
+}

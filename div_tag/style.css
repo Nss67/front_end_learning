@@ -37,9 +37,35 @@ body{
     margin-top: 2rem;
 }
 
+#wrapper input[type="email"]{
+    padding: 0.7rem;
+}
+#wrapper input[type="password"]{
+    padding: 0.7rem;
+}
+
 #wrapper input[type="email"]:hover{
     border: 5px solid rgb(28, 31, 247);
 }
 #wrapper input[type="password"]:hover{
     border: 5px solid rgb(28, 31, 247);
+}
+
+#wrapper input[type="submit"]:hover{
+    background-color: rgb(28, 31, 247);
+    color: white;
+    font-weight: bold;
+}
+
+#wrapper a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0.75rem 0 0 0;
+}
+
+#wrapper a:hover{
+    color: rgb(235, 73, 208);
+    font-weight: bold;
+
 }

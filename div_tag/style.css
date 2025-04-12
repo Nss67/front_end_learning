@@ -1,0 +1,27 @@
+*{
+    font-family: calibri;
+}
+
+html{
+    font-size: 22px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+#wrapper{
+    width: 22rem;
+    background-color: rgb(99, 99, 236);
+    text-align: center;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+}
+
+#wrapper input{
+    width: 22rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+}

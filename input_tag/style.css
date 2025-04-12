@@ -1,0 +1,19 @@
+*{
+    font-family: calibri;
+    font-size: 22px;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+input{
+    display: block;
+}
+
+.form_2{
+    background-color: rgb(182, 23, 155);
+    border: 2px solid black;
+    margin: 50px 250px;
+    padding:50px 375px;
+}

@@ -1,0 +1,71 @@
+*{
+    font-family: calibri;
+}
+
+html{
+    font-size: 22px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+#wrapper{
+    width: 22rem;
+    background-color: rgb(99, 99, 236);
+    border-radius: 22px;
+    text-align: center;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+}
+
+#wrapper input{
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#wrapper input[type="password"]{
+    margin-top: 1rem;
+}
+
+#wrapper input[type="submit"]{
+    margin-top: 2rem;
+}
+
+#wrapper input[type="email"]{
+    padding: 0.7rem;
+}
+#wrapper input[type="password"]{
+    padding: 0.7rem;
+}
+
+#wrapper input[type="email"]:hover{
+    border: 5px solid rgb(28, 31, 247);
+}
+#wrapper input[type="password"]:hover{
+    border: 5px solid rgb(28, 31, 247);
+}
+
+#wrapper input[type="submit"]:hover{
+    background-color: rgb(28, 31, 247);
+    color: white;
+    font-weight: bold;
+}
+
+#wrapper a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0.75rem 0 0 0;
+}
+
+#wrapper a:hover{
+    color: rgb(235, 73, 208);
+    font-weight: bold;
+
+}

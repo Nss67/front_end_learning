@@ -11,3 +11,13 @@ body{
 b, strong{
     color: rgb(169, 184, 250);
 }
+
+i, em{
+    color: orangered;
+}
+del{
+    color: red;
+}
+ins{
+    color: yellowgreen;
+}

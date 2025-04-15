@@ -1,0 +1,44 @@
+*{
+    font-family: calibri;
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(2, 0, 0);
+}
+
+#wrapper{
+    max-width: 30rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10rem auto 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 5px white;
+}
+
+#wrapper input{
+    box-sizing: border-box;
+    width: 96%;
+    border-radius: 6px;
+}
+
+#wrapper input[type="email"], #wrapper input[type="password"]{
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid black;
+}
+
+#wrapper input[type="password"]{
+    margin-top: 1.5rem;
+}
+
+#wrapper input[type="submit"]{
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: rgb(73, 141, 241);
+    border: 2px solid rgb(73, 141, 241);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

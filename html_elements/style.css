@@ -1,0 +1,23 @@
+*{
+    font-family: calibri;
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(87, 88, 88);
+    color: rgb(238, 233, 210);
+}
+
+b, strong{
+    color: rgb(169, 184, 250);
+}
+
+i, em{
+    color: orangered;
+}
+del{
+    color: red;
+}
+ins{
+    color: yellowgreen;
+}

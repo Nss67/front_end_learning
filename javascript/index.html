@@ -12,5 +12,19 @@
     <button onclick="this.innerHTML='OK';">click me</button>
     <button onclick="document.getElementById('P1').innerHTML='Done!';">pragraph</button>
     <button onclick="document.getElementById('P1').style.color='blue';">color</button>
+
+    <button id="btn1" onclick="func_1();">internal java script</button>
+    <br>
+    <h1 id="H1"></h1>
+    <br>
+    <p id="P2"></p>
+
+    <script>
+        function func_1(){
+            document.getElementById('btn1').innerHTML="Welcome";
+            document.getElementById('H1').innerHTML="I create a header.";
+            document.getElementById('P2').innerHTML="I create a pragraph.";
+        }
+    </script>
 </body>
 </html>
